@@ -1,3 +1,65 @@
-body {
-  background-color: blue;
+.card {
+  
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: fantasy;
+  -webkit-border-radius: 50px;
+border-radius: 50px;
+background: #D1D8EC;
+-webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
 }
+
+h2 {
+  border-color: lightblue;
+  border: solid 1px;
+  text-align: center;
+  border: 100px;
+}
+
+.list-group-item {
+  font-size: smaller;
+  font-weight: bold;
+  text-align: justify;
+}
+
+footer {
+  font-size: x-small;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.available {
+  width: 100%;
+  background-color: grey;
+  color: yellow;
+  text-align: left;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12b04be9-26f8-4234-9afa-9a88e99fdace/d119u42-c86271f3-069c-417d-b77a-bb62ccdc0264.jpg/v1/fit/w_800,h_500,q_70,strp/oofuri_in_hogwarts_by_cris_art_d119u42-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvMTJiMDRiZTktMjZmOC00MjM0LTlhZmEtOWE4OGU5OWZkYWNlXC9kMTE5dTQyLWM4NjI3MWYzLTA2OWMtNDE3ZC1iNzdhLWJiNjJjY2RjMDI2NC5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.fDcTcX9npSobnw8RxWawdiSI-4F-LGFpFckrfuAJLdo);
+  color: rgb(249, 202, 137);
+  border: 5px solid rgb(201, 44, 27);
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+
+#container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 75%;
+}
+
+ 
+
+ 

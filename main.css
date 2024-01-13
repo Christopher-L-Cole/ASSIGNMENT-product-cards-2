@@ -1,19 +1,20 @@
 .card {
-  
   max-width: 300px;
   margin: 0 auto;
   text-align: center;
   font-family: fantasy;
-  -webkit-border-radius: 50px;
-border-radius: 50px;
-background: #D1D8EC;
--webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+  -webkit-border-radius: 36px;
+border-radius: 36px;
+background: #816029;
+-webkit-box-shadow: 7px 7px 33px #684e21, -7px -7px 33px #9a7231;
+box-shadow: 7px 7px 33px #684e21, -7px -7px 33px #9a7231;
+}
+.card-title {
+  border: solid 1px;
+  border-color: lightblue;
 }
 
 h2 {
-  border-color: lightblue;
-  border: solid 1px;
   text-align: center;
   border: 100px;
 }
@@ -32,12 +33,13 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
 }
 
 .available {
   width: 100%;
   background-color: grey;
+  
   color: yellow;
   text-align: left;
 }
@@ -58,6 +60,25 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 width: 75%;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.image2 {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  top: 6px;
+  right: 30px;
+  
+}
+
+.img {
+  position: relative;  
 }
 
  
